@@ -25,6 +25,7 @@
   list-style: none;
   font-size: 16px;
   padding: 0;
+  text-transform: capitalize;
 }
 
 .humidity-wind {
