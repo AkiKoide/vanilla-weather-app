@@ -11,11 +11,82 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
-      <script src="src/app.js"></script>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <input type="text" placeholder="Enter a city name" />
+          <input type="submit" value="SEARCH" />
+          <hr />
+          <div class="row">
+            <div class="col-6">
+              <h1 class="city-name">Tokyo</h1>
+            </div>
+            <div class="col-6">
+              <ul class="day-time">
+                <li>Friday</li>
+                <li>19:00</li>
+              </ul>
+            </div>
+            <hr />
+
+            <div class="row">
+              <div class="col-6">
+                <div class="clearfix weather-temperatire">
+                  <img
+                    src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+                    alt="cloudy"
+                    class="float-left"
+                  />
+                  <div class="float-left">
+                    <strong class="tempreture">12</strong
+                    ><span class="units">°C | <a href="#"></a>°F</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <ul class="humidity-wind">
+                  <li>Humidity: 73%</li>
+                  <li>Wind: 2km/h</li>
+                  <li>Precipitation: 0%</li>
+                </ul>
+              </div>
+            </div>
+            <div class="FutureWeather">
+              <div class="row">
+                <div class="row row-cols-4">
+                  <div class="col">Sat</div>
+                  <div class="col">Sun</div>
+                  <div class="col">Mon</div>
+                  <div class="col">Tue</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="row row-cols-4">
+                  <div class="col">wether icon</div>
+                  <div class="col">wether icon</div>
+                  <div class="col">wether icon</div>
+                  <div class="col">wether icon</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script src="src/app.js"></script>
+        </div>
+        <small>
+          <a
+            href="https://github.com/AkiKoide/vanilla-weather-app"
+            target="_blank"
+            >Open-source codes</a
+          >
+          by Aki Koide
+        </small>
+      </div>
     </div>
   </body>
 </html>

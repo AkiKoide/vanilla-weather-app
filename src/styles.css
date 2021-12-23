@@ -1,0 +1,51 @@
+.body {
+  font-family: Arial, sans-serif;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+}
+
+.city-name {
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 40px;
+}
+
+.day-time {
+  list-style: none;
+  font-size: 16px;
+  padding: 0;
+}
+
+.humidity-wind {
+  list-style: none;
+  font-size: 16px;
+  padding: 0;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+}
+
+.tempreture {
+  font-size: 45px;
+  font-weight: 400px;
+}
+
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -20px;
+}
