@@ -28,6 +28,13 @@
   text-transform: capitalize;
 }
 
+.condition {
+  list-style: none;
+  font-size: 16px;
+  padding: 0;
+  text-transform: capitalize;
+}
+
 .humidity-wind {
   list-style: none;
   font-size: 16px;
