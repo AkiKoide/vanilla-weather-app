@@ -13,6 +13,7 @@
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 .city-name {
