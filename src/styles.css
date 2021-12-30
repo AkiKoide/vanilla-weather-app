@@ -13,7 +13,11 @@
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
-  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background: linear-gradient(
+    178deg,
+    rgb(156, 177, 248) 7.5%,
+    rgb(153, 247, 243) 93.1%
+  );
 }
 
 .city-name {
